@@ -5,6 +5,7 @@ app = Flask(__name__)
 def index():
     return "TechNova - Inventory App"
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081)
 
