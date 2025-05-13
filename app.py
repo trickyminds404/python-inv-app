@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "TechNova - Inventory App"
+    return "Welcome to the TechNova - Inventory App"
 
 
 if __name__ == '__main__':
